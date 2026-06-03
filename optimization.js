@@ -44,25 +44,17 @@ async function build() {
             const filePath = path.join('./js', file)
             const js = fs.readFileSync(filePath, 'utf8')
 
-            let code = js
+            const minified = await minify(js, {
+                compress: true,
+                mangle: true
+            })
 
-            if (file !== 'meow.js') {
-                const minified = await minify(js, {
-                    compress: true,
-                    mangle: true
-                })
-                code = minified.code
-            }
-
-            const obfuscated = JavaScriptObfuscator.obfuscate(code, {
+            const obfuscated = JavaScriptObfuscator.obfuscate(minified.code, {
                 compact: true,
-                controlFlowFlattening: true,
-                deadCodeInjection: true,
                 stringArray: true,
                 rotateStringArray: true,
                 stringArrayEncoding: ['base64'],
-                identifierNamesGenerator: 'hexadecimal',
-                selfDefending: true
+                identifierNamesGenerator: 'hexadecimal'
             })
 
             fs.writeFileSync(filePath, obfuscated.getObfuscatedCode())
