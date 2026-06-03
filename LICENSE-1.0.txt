@@ -1,0 +1,32 @@
+Nexus Public License (NPL)
+
+Version 1.0.0
+
+1. Definitions
+"Software" refers to the source code, documentation, executables, and associated media files provided under this license.
+"Contributor" refers to any individual or entity that creates or contributes to the modification of the Software.
+"Recipient" refers to anyone who receives a copy of the Software under this license.
+"Source Code" refers to the preferred form of the Software for making modifications to it.
+"Object Code" refers to any non-source form of the Software, including compiled binaries and machine code.
+
+2. Grant of Rights
+Subject to the terms and conditions of this license, each Contributor hereby grants to the Recipient a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to:
+* Use, reproduce, and run the Software for personal, educational, or commercial purposes.
+* Prepare derivative works of, publicly display, and modify the Software.
+* Distribute copies of the Software or derivative works thereof.
+
+3. Conditions of Distribution
+You may distribute copies of the Software or derivative works, provided that you meet the following conditions:
+* Attribution: You must include a copy of this original license and the copyright notice of the original authors in any distribution of the Software.
+* Notice of Changes: If you modify the Software, you must add prominent notices stating that you changed the files.
+* No Endorsement: You may not use the names or branding of the original Contributors to endorse or promote products derived from this Software without prior written permission.
+* Sublicensing: You may not impose any further restrictions on the Recipients' exercise of the rights granted herein.
+
+4. Intellectual Property & Patents
+Each Contributor hereby grants to the Recipient a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their contribution alone or by combination of their contribution with the Software.
+
+5. Termination
+Any failure to comply with the terms and conditions of this license terminates your rights under it automatically. If your rights have been terminated, they will be reinstated only upon written agreement from the copyright holders or when the non-compliance is cured within 30 days of discovery.
+
+6. Limitation of Liability & Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
