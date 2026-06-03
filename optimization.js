@@ -46,7 +46,9 @@ async function build() {
 
             const minified = await minify(js, {
                 compress: true,
-                mangle: true
+                mangle: {
+                    toplevel: false
+                }
             })
 
             const obfuscated = JavaScriptObfuscator.obfuscate(minified.code, {
@@ -54,7 +56,8 @@ async function build() {
                 stringArray: true,
                 rotateStringArray: true,
                 stringArrayEncoding: ['base64'],
-                identifierNamesGenerator: 'hexadecimal'
+                identifierNamesGenerator: 'hexadecimal',
+                renameGlobals: false
             })
 
             fs.writeFileSync(filePath, obfuscated.getObfuscatedCode())
